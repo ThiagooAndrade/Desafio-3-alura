@@ -5,7 +5,6 @@
 @import url(/styles/contato.css);
 @import url(/styles/footer);
 
-@import url(reset.css);
 
 :root {
   --cor-de-fundo: #ebecee;
