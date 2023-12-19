@@ -1,13 +1,14 @@
 @import url(/styles/header.css);
 @import url(/styles/banner.css);
 @import url(/styles/carrossel.css);
+@import url(/styles/topicos.css);
 
 @import url(reset.css);
 
 :root {
   --cor-de-fundo: #ebecee;
   --laranja: #eb9b00;
-  --roxo: #002F52;
+  --azul: #002F52;
   --azul-degrade: linear-gradient(98deg, #002f52 35.49%, #326589 165.37%);
   --fonte-principal: "Poppins";
   --lista-menu-boxshadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
