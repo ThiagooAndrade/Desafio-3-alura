@@ -14,7 +14,7 @@
   background-position: center;
 }
 
-.container {
+.cabeçalho__container {
   display: flex;
   align-items: center;
 }
