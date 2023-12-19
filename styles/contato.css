@@ -1,0 +1,14 @@
+.contato {
+    background-color: var(--cor-de-fundo);
+    padding: 1.5em;
+}
+
+.contato__titulo {
+    color: var(--azul);
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+}
