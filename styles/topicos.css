@@ -29,3 +29,22 @@
   color: white;
   padding: 1em 1.4em;
 }
+
+@media screen and (min-width: 1024px){
+  .tópicos {
+    margin-top: 3em;
+  }
+
+  .tópicos__titulo {
+    font-size: 1.5em;
+    padding: 1em 0 1.5em 0;
+  }
+
+  .tópicos__item {
+    margin: 2.5em 1em;
+  }
+
+  .tópicos__link {
+    font-size: 1.5em;
+  }
+}

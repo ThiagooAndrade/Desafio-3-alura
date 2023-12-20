@@ -1,4 +1,44 @@
 .rodapé {
-    padding: 1em;
-    background-color: white;
+  padding: 1em;
+  background-color: white;
+}
+
+.rodapé__lista {
+  display: none;
+}
+
+.lista__nome {
+  color: var(--cinza);
+  font-size: 0.875em;
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
+}
+
+.lista__texto {
+  color: #474646;
+  font-size: 0.875em;
+}
+
+@media screen and (min-width: 1024px) {
+  .rodapé {
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .rodapé__titulo {
+    font-size: 1.5em;
+  }
+
+  .rodapé__lista {
+    display: block;
+  }
+
+  .lista__item {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    gap: 10px;
+  }
 }
