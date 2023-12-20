@@ -32,9 +32,8 @@
   text-align: center;
   color: white;
   background: url(../assets/Lupa.svg) no-repeat;
-  background-position: 1em center ;
+  background-position: 1em center;
 }
-
 
 @media screen and (min-width: 768px) {
   .banner {
@@ -45,7 +44,7 @@
     font-size: 2.25em;
   }
 
-  .banner__texto{
+  .banner__texto {
     margin: 1em 0 1.5em 0;
     font-weight: 500;
   }
@@ -55,13 +54,12 @@
     padding: 1.5em 5em;
   }
 
-  .banner__pesquisa::placeholder{
+  .banner__pesquisa::placeholder {
     font-size: 1em;
   }
-  
 }
 
-@media screen and (min-width: 1728px){
+@media screen and (min-width: 1728px) {
   .banner__pesquisa {
     max-width: 586px;
   }

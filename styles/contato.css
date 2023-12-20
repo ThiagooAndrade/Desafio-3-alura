@@ -49,18 +49,16 @@
 
   .contato__descrição {
     margin-left: 10%;
-    width: 30%; 
+    width: 30%;
   }
 
   .contato__titulo {
     font-size: 1.5em;
   }
 
-
-  .contato__email{
+  .contato__email {
     max-width: 326px;
     padding: 1.5em;
     margin-right: 10%;
   }
-
 }

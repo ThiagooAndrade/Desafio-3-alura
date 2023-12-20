@@ -30,7 +30,7 @@
   padding: 1em 1.4em;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .tópicos {
     margin-top: 3em;
   }
