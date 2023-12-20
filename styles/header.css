@@ -23,6 +23,14 @@
   padding: 1em;
 }
 
+.container__titulo {
+  display: none;
+}
+
+.opções {
+  display: none;
+}
+
 .lista-menu {
   display: none;
   position: absolute;
@@ -56,4 +64,56 @@
 
 .container__botao {
   display: none;
+}
+
+@media screen and (min-width: 760px) {
+  .container__titulo,
+  .container__titulo-negrito {
+    font-size: 30px;
+    font-family: "Josefin Sans";
+  }
+  .container__titulo {
+    font-weight: 400;
+    display: block;
+  }
+
+  .container__titulo-negrito {
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  
+
+  .opções {
+    display: flex;
+    align-items: center;
+  }
+
+  .opções__item {
+    text-transform: uppercase;
+    padding: 0 1em;
+  }
+
+  .opções__link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .container__imagem-transparente,
+  .cabeçalho__menu {
+    display: none;
+  }
+
+  .opções__botão:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  .opções__botão {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1728px) {
 }
