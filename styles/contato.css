@@ -1,5 +1,5 @@
 .contato {
-  background-color: white;
+  background-color: var(--cor-de-fundo);
   padding: 1.5em;
 }
 
