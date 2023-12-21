@@ -36,14 +36,18 @@
     padding: 0.5em;
   }
 
-  .lista__link {
+  .lista-rodapé__link {
     text-decoration: none;
     gap: 10px;
   }
 
-  .lista__link__texto {
+  .lista-rodapé__link__texto {
     color: #474646;
     font-size: 0.875em;
+  }
+  
+  .lista-rodapé__link__texto:hover {
+    color: var(--laranja);
   }
 }
 
