@@ -1,6 +1,6 @@
 .rodapé {
   padding: 1em;
-  background-color: white;
+  background-color: #f9f9f9;
 }
 
 .rodapé__lista {
@@ -45,7 +45,7 @@
     color: #474646;
     font-size: 0.875em;
   }
-  
+
   .lista-rodapé__link__texto:hover {
     color: var(--laranja);
   }
