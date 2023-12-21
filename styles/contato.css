@@ -57,8 +57,27 @@
   }
 
   .contato__email {
-    max-width: 326px;
+    width: 30%;
     padding: 1.5em;
     margin-right: 10%;
   }
+}
+
+@media screen and (min-width: 1728px) {
+  .contato {
+    margin: auto;
+    width: 50%;
+    padding: 3em 0;
+  }
+
+  .contato__descrição {
+    margin-left: 0;
+    width: 40%;
+  }
+
+  .contato__email{
+    width: 40%;
+    margin-right: 0;
+  }
+
 }

@@ -10,9 +10,8 @@
 @media screen and (min-width: 1024px) {
   .rodapé {
     margin: 2em 0;
-    padding: 2em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .rodapé__titulo {
@@ -31,12 +30,13 @@
   }
 
   .lista__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     padding: 0.5em;
   }
 
   .lista__link {
-    display: flex;
-    align-items: center;
     text-decoration: none;
     gap: 10px;
   }
@@ -44,5 +44,15 @@
   .lista__link__texto {
     color: #474646;
     font-size: 0.875em;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .lista__nome {
+    margin-left: 1em;
+  }
+
+  .rodapé__lista {
+    border-left: 1px solid #858585;
   }
 }

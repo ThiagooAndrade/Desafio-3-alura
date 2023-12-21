@@ -3,7 +3,7 @@
   background-color: white;
   color: var(--laranja);
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: 700;
   padding: 3em 0 2em 0;
 }
@@ -72,7 +72,7 @@
   font-weight: 700;
   color: white;
   background-color: var(--laranja);
-  padding: 1em;
+  padding: 1em 2.15em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -83,6 +83,7 @@
   .swiper-pagination {
     margin-bottom: 2em;
   }
+
   .swiper {
     width: 60%;
   }
@@ -96,5 +97,32 @@
   .card {
     width: 40%;
     margin: 4em auto 1em auto;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .container__carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+  }
+
+  .swiper {
+    width: 35%;
+    margin: 0;
+  }
+
+  .card {
+    width: 30%;
+    margin: 0;
+  }
+
+  .carrossel__titulo {
+    font-size: 2em;
+  }
+
+  .descrição__titulo {
+    font-size: 2em;
   }
 }
